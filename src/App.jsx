@@ -1,9 +1,10 @@
 import './App.css'
+import {Text} from "./components/atoms/text"
 
 function App() {
    return (
     <>
-      <h1> Olá mundo</h1>
+      <Text as='h1' variant="h1" className="UpperCase underline right margin-lg"> Ola Mundo </Text>
     </>
   )
 }
