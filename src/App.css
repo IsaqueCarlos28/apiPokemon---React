@@ -1,0 +1,33 @@
+:root{
+    /* Colors */
+    --color-primary: blue;
+    --color-secondary: Orange;
+
+    /*Font Colors*/
+    --font-color-default: black;
+    --font-color-white: white;
+    --font-color-caption: rgb(158, 154, 154);
+
+    /*Font Sizes*/
+    --font-size-extra-small:0.25rem; 
+    --font-size-small:0.5rem; 
+    --font-size-medium:1rem; 
+    --font-size-large:1.5rem; 
+    --font-size-extra-large:2rem; 
+
+    /* Font Family */
+    --font-family-primary: tahoma;
+    --font-family-secondary: Serif;
+
+    /* Font Weight */
+    --font-weight-bold: bold;
+    --font--default: 500
+    --font--lighter: lighter;
+
+    /* Spacing */
+    --spacing-extra-small:0.25rem; 
+    --spacing-small:0.5rem; 
+    --spacing-medium:1rem; 
+    --spacing-large:1.5rem; 
+    --spacing-extra-large:2rem; 
+}
