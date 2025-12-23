@@ -4,8 +4,9 @@ export const Text = (
     {
     as: Component = "p",
     variant = "body",
-    className,
+    className = "",
     children,
+    ...props
     }) => {
 
     const variantMap ={
@@ -16,11 +17,13 @@ export const Text = (
     }
 
     const classes = [
-        variantMap[variant],
+        variantMap[variant] || variantMap.body,
         className
-    ].join('').trim()
+    ].filter(Boolean).join(' ').trim()
     
     return(
-        <Component className ={classes}> {children} </Component>
+        <Component className ={classes} {...props}> 
+            {children} 
+        </Component>
     )
 }
