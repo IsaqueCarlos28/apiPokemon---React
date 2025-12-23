@@ -1,12 +1,12 @@
 /* Styles */
 .title{
-  font-size: var(--font-size-extra-large);
+  font-size: var(--font-size-double-large);
   font-family:var(--font-family-primary);
   font-weight: var(--font-weight-bold);
 }
 
 .subtitle{
-  font-size: var(--font-size-large);
+  font-size: var(--font-extra-large);
   font-family:var(--font-family-primary);
 }
 
@@ -17,7 +17,7 @@
 }
 
 .caption{
-  font-size: var(--font-size-extra-small);
+  font-size: var(--font-size-small);
   font-family: var(--font-family-secondary);
   font-weight: var(--font-weight-lighter);
 }
@@ -31,10 +31,10 @@
 .center{ text-align: center;}
 .right{ text-align:right;}
 
-.padding-lg{ padding: var(--spacing-large);}
+.padding-lg{ padding: var(--spacing-extra-large);}
 .padding-md{ padding: var(--spacing-medium);}
-.padding-sm{ padding: var(--spacing-small);}
+.padding-sm{ padding: var(--spacing--extra-small);}
 
-.margin-lg{ margin: var(--spacing-large);}
+.margin-lg{ margin: var(--spacing-extra-large);}
 .margin-md{ margin: var(--spacing-medium);}
-.margin-sm{ margin: var(--spacing-small);}
+.margin-sm{ margin: var(--spacing-extra-small);}
