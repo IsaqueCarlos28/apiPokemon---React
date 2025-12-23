@@ -1,19 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     /* Colors */
     --color-primary: blue;
     --color-secondary: Orange;
+    --color-danger: #ed5729;
+    --color-ghost:rgb(219, 219, 219);
 
     /*Font Colors*/
     --font-color-default: black;
     --font-color-white: white;
-    --font-color-caption: rgb(158, 154, 154);
+    --font-color-caption: rgb(96, 93, 93);
 
     /*Font Sizes*/
-    --font-size-extra-small:0.25rem; 
-    --font-size-small:0.5rem; 
-    --font-size-medium:1rem; 
-    --font-size-large:1.5rem; 
-    --font-size-extra-large:2rem; 
+    --font-sized-double-small:0.25rem; 
+    --font-size-extra-small:0.5rem; 
+    --font-size-small:0.75rem;
+
+    --font-size-medium:1rem;
+
+    --font-size-large:1.25rem; 
+    --font-size-extra-large:1.5rem;  
+    --font-size-double-large:1.75rem; 
+    --font-size-triple-large:2rem; 
 
     /* Font Family */
     --font-family-primary: tahoma;
@@ -21,13 +33,19 @@
 
     /* Font Weight */
     --font-weight-bold: bold;
-    --font--default: 500
-    --font--lighter: lighter;
+    --font-weight-default: 500
+    --font-weight-light: bold;
 
     /* Spacing */
-    --spacing-extra-small:0.25rem; 
-    --spacing-small:0.5rem; 
-    --spacing-medium:1rem; 
-    --spacing-large:1.5rem; 
-    --spacing-extra-large:2rem; 
+     
+    --spacing-double-small:0.25rem; 
+    --spacing-extra-small:0.5rem; 
+    --spacing-small:0.75rem;
+
+    --spacing-medium:1rem;
+
+    --spacing-large:1.25rem;
+    --spacing-extra-large:1.5rem; 
+    --spacing-double-large:1.75rem; 
+    --spacing-triple-large:2rem; 
 }
