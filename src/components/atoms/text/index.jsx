@@ -3,7 +3,7 @@ import "./style.css"
 export const Text = (
     {
     as: Component = "p",
-    variant,
+    variant = "body",
     className,
     children,
     }) => {
@@ -15,7 +15,11 @@ export const Text = (
         caption: "caption"
     }
 
-    const classes =`${variantMap[variant]} ${className}`
+    const classes = [
+        variantMap[variant],
+        className
+    ].join('').trim()
+    
     return(
         <Component className ={classes}> {children} </Component>
     )
