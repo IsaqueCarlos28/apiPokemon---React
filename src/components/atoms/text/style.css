@@ -13,13 +13,13 @@
 .simple_text{
   font-size: var(--font-size-medium);
   font-family:var(--font-family-secondary);
-  font-weight: var(--font--default);
+  font-weight: var(--font-weight-default);
 }
 
 .caption{
   font-size: var(--font-size-extra-small);
   font-family: var(--font-family-secondary);
-  font-weight: var(--font--lighter);
+  font-weight: var(--font-weight-lighter);
 }
 
 /* Position */
