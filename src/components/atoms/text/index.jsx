@@ -15,7 +15,8 @@ export const Text = (
         caption: "caption"
     }
 
+    const classes =`${variantMap[variant]} ${className}`
     return(
-        <Component className ={`${variantMap[variant]} ${className}`}> {children} </Component>
+        <Component className ={classes}> {children} </Component>
     )
 }
