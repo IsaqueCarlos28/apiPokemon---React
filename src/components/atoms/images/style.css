@@ -1,0 +1,18 @@
+.img-base{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit:cover;
+}
+
+.img-logo{
+    aspect-ratio: 1/1;
+}
+.img-display{
+    aspect-ratio: 9/6;
+}
+.img-card{
+    height: 4rem;
+    aspect-ratio: 1/1;
+    margin:var(--spacing-extra-small);
+}
