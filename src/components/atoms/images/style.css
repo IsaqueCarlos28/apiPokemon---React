@@ -3,16 +3,19 @@
     height: auto;
     display: block;
     object-fit:cover;
+    object-position: center;
+    margin:var(--spacing-extra-small);
 }
 
 .img-logo{
+    height: 100px;
     aspect-ratio: 1/1;
 }
 .img-display{
-    aspect-ratio: 9/6;
+    height: 350px;
+    aspect-ratio: 4/2;
 }
 .img-card{
-    height: 4rem;
+    height: 200px;
     aspect-ratio: 1/1;
-    margin:var(--spacing-extra-small);
 }
