@@ -1,6 +1,6 @@
 import "./style.css"
 
-export const Tags = ({
+export const Tag = ({
     variant = "stats",
     className= "",
     children,
@@ -9,7 +9,7 @@ export const Tags = ({
          
     const variantMap = {
         filter: "tag-filter",
-        stats: "tag-stats",
+        stat: "tag-stats",
         type: "tag-types",
     }
 

@@ -4,7 +4,6 @@
     display: block;
     object-fit:cover;
     object-position: center;
-    margin:var(--spacing-extra-small);
 }
 
 .img-logo{
@@ -16,6 +15,6 @@
     aspect-ratio: 4/2;
 }
 .img-card{
-    height: 200px;
+    height: 100px;
     aspect-ratio: 1/1;
 }

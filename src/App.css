@@ -10,13 +10,33 @@
     --color-danger: #ed3029;
     --color-ghost:rgb(219, 219, 219);
 
+    /* Pokemon Colors */
+    --type-color-normal: #A8A77A;
+    --type-color-fire: #EE8130;
+    --type-color-water: #6390F0;
+    --type-color-electric: #F7D02C;
+    --type-color-grass: #7AC74C;
+    --type-color-ice: #96D9D6;
+    --type-color-fighting: #C22E28;
+    --type-color-poison: #A33EA1;
+    --type-color-ground: #E2BF65;
+    --type-color-flying: #A98FF3;
+    --type-color-psychic: #F95587;
+    --type-color-bug: #A6B91A;
+    --type-color-rock: #B6A136;
+    --type-color-ghost: #735797;
+    --type-color-dragon: #6F35FC;
+    --type-color-dark: #705746;
+    --type-color-steel: #B7B7CE;
+    --type-color-fairy: #D685AD;
+
     /*Font Colors*/
     --font-color-default: black;
-    --font-color-white: white;
+    --font-color-white: rgb(255, 255, 255);
     --font-color-caption: rgb(96, 93, 93);
 
     /*Font Sizes*/
-    --font-sized-double-small:0.25rem; 
+    --font-size-double-small:0.4rem; 
     --font-size-extra-small:0.5rem; 
     --font-size-small:0.75rem;
 
@@ -38,7 +58,7 @@
 
     /* Spacing */
      
-    --spacing-double-small:0.25rem; 
+    --spacing-double-small:0.4rem; 
     --spacing-extra-small:0.5rem; 
     --spacing-small:0.75rem;
 

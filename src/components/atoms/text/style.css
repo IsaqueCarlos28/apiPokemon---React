@@ -11,13 +11,13 @@
 }
 
 .simple_text{
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-small);
   font-family:var(--font-family-secondary);
   font-weight: var(--font-weight-default);
 }
 
 .caption{
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-extra-small);
   font-family: var(--font-family-secondary);
   font-weight: var(--font-weight-lighter);
 }
@@ -30,6 +30,7 @@
 
 .center{ text-align: center;}
 .right{ text-align:right;}
+.left{ text-align:left;}
 
 .padding-lg{ padding: var(--spacing-extra-large);}
 .padding-md{ padding: var(--spacing-medium);}

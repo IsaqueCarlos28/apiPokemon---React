@@ -1,7 +1,6 @@
 .btn-base{
     text-transform: uppercase;
     font-weight:var(--font-weight-bold);
-    margin: var(--spacing-small);
     border: 1px solid;
     display: inline-flex;
     align-items: center;
@@ -42,4 +41,10 @@
     padding: var(--spacing-extra-small);
     border-radius: var(--spacing-small);
     font-size: var(--font-size-small);
+}
+
+.btn-small{
+    padding: var(--spacing-double-small);
+    border-radius: var(--spacing-small);
+    font-size: var(--font-size-double-small);
 }

@@ -1,0 +1,32 @@
+.card{
+    aspect-ratio: 3/5;
+    max-width: 100%;
+    height: 250px;
+    
+    background-color: var(--color-ghost);
+    border: 2px solid var(--color-secondary);
+    
+    padding: 4px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+.types{
+    display: grid;
+    gap: 4px;
+    grid-template-columns:repeat(3,1fr);
+}
+.stats{
+    display: grid;
+    gap: 4px;
+    grid-template-columns:repeat(2,1fr) ;
+}

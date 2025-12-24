@@ -19,6 +19,7 @@ export const Button = ({
     const sizeMap = {
         large: "btn-large",
         medium: "btn-medium",
+        small: "btn-small"
     }
 
     const classes = [

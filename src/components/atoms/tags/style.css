@@ -1,6 +1,5 @@
 .base-card{
-    margin: 5px auto;
-    padding:var(--spacing-double-small);
+    margin: 0 auto;
     aspect-ratio: 7/2;
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-bold);
@@ -15,17 +14,22 @@
     max-width: 60px;
     border-radius: 20px;
     text-transform: uppercase;
+    font-size: var(--font-size-double-small);
     font-family: var(--font-family-primary);
     color: var(--font-color-white);
     text-shadow: 1px 1px black;
+    padding:4px;
 }
 .tag-stats{
-    max-width: 70px;
+    max-width: 40px;
     border-radius: 5px;
     text-transform: uppercase;
     background-color:var(--type-color-steel);
     font-family: var(--font-family-primary);
+    font-size: var(--font-size-double-small);
+    padding:4px;
 }
+
 .tag-filter{
     max-width: 40px;
     border-radius: 9px;
